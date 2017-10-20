@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>py.com.lothar</groupId>
+    <artifactId>PortabilityProcess</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>PortabilityProcess</name>
+    <modules>
+        <module>PortabilityProcess-ejb</module>
+    <module>PortabilityProcessAsoc-ejb</module>
+        <module>PortabilityProcess-ear</module>
+    <module>PortabilityProcessActivationPrepago</module>
+    <module>ActivacionPrePago</module>
+    <module>Prueba</module>
+  </modules>
+    <!-- <parent>
+        <groupId>com.tigo</groupId>
+        <artifactId>utils-base-project</artifactId>
+        <version>1.6.1-SNAPSHOT</version>
+    </parent> 
+    <repositories>
+        <repository>
+            <id>public</id>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <url>http://repo-nexus-01.telecel.net.py:8081/nexus/content/groups/public</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>public-snapshots</id>
+            <releases>
+                <enabled>false</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <url>http://repo-nexus-01.telecel.net.py:8081/nexus/content/groups/public-snapshots</url>
+            <layout>default</layout>
+        </repository>
+    </repositories> -->
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PortabilityProcess-ear-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="PortabilityProcess-ejb-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/PortabilityProcess-ejb/PortabilityProcess-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jt400-6.6.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/net/sf/jt400/jt400/6.6/jt400-6.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LotharMWOperation-0.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/py/com/lothar/LotharMWOperation/0.0.1/LotharMWOperation-0.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.persistence.core-2.6.1-RC1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/eclipse/persistence/org.eclipse.persistence.core/2.6.1-RC1/org.eclipse.persistence.core-2.6.1-RC1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.persistence.asm-2.6.1-RC1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/eclipse/persistence/org.eclipse.persistence.asm/2.6.1-RC1/org.eclipse.persistence.asm-2.6.1-RC1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.json-1.0.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
